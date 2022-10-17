@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "computationalintelligence2022-s303339"
+version = "0.1.0"
+description = "Code for Computational Intelligence 2022"
+authors = ["Andrea D'Attila s303339@studenti.polito.it"]
+readme = "README.md"
+packages = [{include = "computationalintelligence2022_s303339"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = ">=1.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
