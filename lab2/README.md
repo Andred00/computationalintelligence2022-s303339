@@ -15,7 +15,7 @@ Genomes are evaluated using a `fitness` function. In this case, we have assigned
 We have added a minus to the weigth, so that when comparing two genomes, the best is the one with the higher coverage. If two genomes have the same coverage, the best is the one with the lower weight.
 
 ## Algorithm Parameters
-After running the GA using different parameters, we have chosen the ones which gave us the best results in a reasonable time. We used `POPULATION SIZE = 2000` and `OFFSPRING SIZE = 1500`.
+After running the GA using different parameters, we have chosen the ones which gave us the best results in a reasonable time. We used `POPULATION SIZE = 1500` and `OFFSPRING SIZE = 1000`.
 In our Genetic Algorithm we used both **mutation** and **crossover**: for each generation we generate mutated offsprings with `mutation rate = 0.3`. 
 
 We used as a stopping condition a maximum number of generations, which we set to 200. If we obtain an optimal solution (N=coverage=weight) before reaching the maximum number of generations, we stop the algorithm.
